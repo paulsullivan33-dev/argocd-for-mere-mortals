@@ -1,0 +1,20 @@
+site_name: Argo CD for Mere Mortals
+site_description: Plain-language Argo CD — GitOps delivery for Kubernetes, your first app, sync and drift, app-of-apps, projects and RBAC.
+site_url: https://paulsullivan33-dev.github.io/argocd-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Is Argo CD?: what-is-argocd.md
+  - Installing: installing.md
+  - Your First App: your-first-app.md
+  - Sync and Drift: sync-and-drift.md
+  - App of Apps: app-of-apps.md
+  - Projects and RBAC: projects-rbac.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
